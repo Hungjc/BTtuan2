@@ -1,12 +1,22 @@
+# Android & Gradle
 *.iml
 .gradle/
 /build
 /*/build
 .idea/
 local.properties
-.DS_Store
-/captures
-.externalNativeBuild
-.cxx/
 *.apk
 *.aab
+
+# Flutter
+.dart_tool/
+.pub-cache/
+.pub/
+/*/build/
+/*/.dart_tool/
+/*/.idea/
+/*/*.iml
+
+# System & IDE
+.DS_Store
+.vscode/
